@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mall?characterEncoding=UTF-8&serverTimezone=GMT&useSSL=true
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+info:
+  app:
+    name: product
+    desc: product
+security:
+  oauth2:
+    client:
+      client-id: client_2
+      client-secret: $2a$10$ijOPEDarOjkdahi3xpslIu6.cMpBVqYWpbGTkCh0h7Kjt4.NWQwkK
+      access-token-uri: http://localhost:8088/oauth/token
+      user-authorization-uri: http://localhost:8088/oauth/authorize
+    resource:
+      user-info-uri: http://localhost:8088/user
+      prefer-token-info: false
+server:
+  port: 8082
+logging:
+  level:
+    root: info
+    com:
+      zz:
+        product: debug
+pdd:
+  client-id: 3d0d27ab85fe4fbd97982078d0e151c7
+  client-secret: 62f2502cae0b3a117b475374ad5ffdc6fe8bc6b9
+tb:
+  server-url: http://gw.api.taobao.com/router/rest
+  appkey: 28125995
+  secret: 9f6a45fbeca9e587b098c7e08cd88fe1

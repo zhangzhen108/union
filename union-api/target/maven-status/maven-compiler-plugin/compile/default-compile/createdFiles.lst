@@ -1,0 +1,8 @@
+com\union\config\DocumentationConfig.class
+com\union\service\ProductService.class
+com\union\common\SourceEnum.class
+com\union\service\impl\JdProductServiceImpl.class
+com\union\config\PddConfig.class
+com\union\UnionApplication.class
+com\union\service\impl\PddProductServiceImpl.class
+com\union\config\SwaggerConfig.class
