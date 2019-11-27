@@ -10,5 +10,10 @@
         <module name="union-dto" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="union" target="1.8" />
+      <module name="union-api" target="1.8" />
+      <module name="union-dto" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -4,6 +4,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
+import java.util.List;
 
 @Data
 public class ProductDTO implements Serializable {
@@ -14,6 +15,10 @@ public class ProductDTO implements Serializable {
      * 商品名称
      */
     private String name;
+    /**
+     * 商品描述
+     */
+    private String desc;
     /**
      * 商品图片
      */
@@ -29,9 +34,17 @@ public class ProductDTO implements Serializable {
     /**
      * 商品来源
      */
-    private Integer source;
+    private String source;
+    /**
+     * 商品来源
+     */
+    private String sourceMsg;
     /**
      * 优惠券
      */
-    private CouponDTO couponDTO;
+    private List<String> smallImages;
+    /**
+     * 券面值
+     */
+    private BigDecimal couponAmount;
 }

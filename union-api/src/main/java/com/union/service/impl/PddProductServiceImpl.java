@@ -15,10 +15,12 @@ import com.union.dto.result.ProductDTO;
 import com.union.dto.result.ProductDetailDTO;
 import com.union.service.ProductService;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
 import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -50,12 +52,26 @@ public class PddProductServiceImpl implements ProductService {
             PddDdkGoodsSearchResponse.GoodsSearchResponse goodsSearchResponse = response.getGoodsSearchResponse();
             List<PddDdkGoodsSearchResponse.GoodsSearchResponseGoodsListItem> goodsList = goodsSearchResponse.getGoodsList();
             List<ProductDTO> productDTOList = new ArrayList<>();
+            if(CollectionUtils.isEmpty(goodsList)){
+                return productDTOList;
+            }
             goodsList.forEach(good -> {
                         ProductDTO productDTO = new ProductDTO();
-                        productDTO.setSource(SourceEnum.jdd.getScource());
+                        productDTO.setSource(SourceEnum.jdd.getCode());
+                        productDTO.setSourceMsg(SourceEnum.jdd.getMsg());
+                productDTO.setDesc(good.getGoodsDesc());
                         productDTO.setName(good.getGoodsName());
                         productDTO.setImgUrl(good.getGoodsImageUrl());
-                        BigDecimal price = new BigDecimal((good.getMinGroupPrice() - good.getCouponDiscount())/100);
+                        if(CollectionUtils.isEmpty(good.getGoodsGalleryUrls())){
+                            List<String> smallImages=new ArrayList<>();
+                            smallImages.add(good.getGoodsImageUrl());
+                            productDTO.setSmallImages(smallImages);
+                        }else {
+                            productDTO.setSmallImages(good.getGoodsGalleryUrls());
+                        }
+
+                productDTO.setCouponAmount(new BigDecimal(good.getCouponDiscount()));
+                        BigDecimal price = new BigDecimal((good.getMinGroupPrice() - good.getCouponDiscount()));
                 productDTO.setOriginalPrice(new BigDecimal(good.getMinGroupPrice()));
                         productDTO.setPrice(price);
                 productDTOList.add(productDTO);

@@ -18,6 +18,7 @@ import com.union.service.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
 import javax.annotation.Resource;
 import java.math.BigDecimal;
@@ -49,15 +50,30 @@ public class TbProductServiceImpl implements ProductService {
             req.setAdzoneId(183612470L);
             TbkDgMaterialOptionalResponse rsp = client.execute(req);
             List<TbkDgMaterialOptionalResponse.MapData> mapDataList=rsp.getResultList();
+
             List<ProductDTO> productDTOList=new ArrayList<>();
+            if(CollectionUtils.isEmpty(mapDataList)){
+                return productDTOList;
+            }
             for (TbkDgMaterialOptionalResponse.MapData mapData:mapDataList) {
                 ProductDTO productDTO = new ProductDTO();
-                productDTO.setSource(SourceEnum.jdd.getScource());
+                productDTO.setSource(SourceEnum.tb.getCode());
+                productDTO.setSourceMsg(SourceEnum.tb.getMsg());
                 productDTO.setName(mapData.getTitle());
                 productDTO.setImgUrl(mapData.getPictUrl());
+                if(CollectionUtils.isEmpty(mapData.getSmallImages())){
+                    List<String> smallImages=new ArrayList<>();
+                    smallImages.add(mapData.getPictUrl());
+                    productDTO.setSmallImages(smallImages);
+                }else {
+                    productDTO.setSmallImages(mapData.getSmallImages());
+                }
+                productDTO.setSmallImages(mapData.getSmallImages());
                 BigDecimal jddPrice=new BigDecimal(mapData.getZkFinalPrice());
                 BigDecimal couponAmount=new BigDecimal(mapData.getCouponAmount());
                 productDTO.setPrice(jddPrice.subtract(couponAmount));
+                productDTO.setDesc(mapData.getItemDescription());
+                productDTO.setCouponAmount(couponAmount);
                 productDTO.setOriginalPrice(jddPrice);
                 productDTOList.add(productDTO);
             }
