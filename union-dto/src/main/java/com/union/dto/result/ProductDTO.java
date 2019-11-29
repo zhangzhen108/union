@@ -12,9 +12,17 @@ public class ProductDTO implements Serializable {
 
     private static final long serialVersionUID = -691581100453827074L;
     /**
+     * 第三方id
+     */
+    private Long thirdId;
+    /**
      * 商品名称
      */
     private String name;
+    /**
+     * 推销url
+     */
+    private String url;
     /**
      * 商品描述
      */
@@ -32,14 +40,6 @@ public class ProductDTO implements Serializable {
      */
     private BigDecimal originalPrice;
     /**
-     * 商品来源
-     */
-    private String source;
-    /**
-     * 商品来源
-     */
-    private String sourceMsg;
-    /**
      * 优惠券
      */
     private List<String> smallImages;
@@ -47,4 +47,8 @@ public class ProductDTO implements Serializable {
      * 券面值
      */
     private BigDecimal couponAmount;
+    /**
+     * 渠道
+     */
+    private ChannelDTO channelDTO;
 }

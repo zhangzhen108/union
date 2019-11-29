@@ -2,9 +2,10 @@ package com.union.service.impl;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.union.common.SourceEnum;
+import com.union.dto.param.JumpBuyParamDTO;
 import com.union.dto.param.ProductParamDTO;
+import com.union.dto.result.JumpBuyDTO;
 import com.union.dto.result.ProductDTO;
-import com.union.dto.result.ProductDetailDTO;
 import com.union.service.ProductService;
 import org.springframework.stereotype.Service;
 
@@ -16,12 +17,12 @@ import java.util.List;
 @Service
 public class JdProductServiceImpl implements ProductService {
     @Override
-    public List<ProductDTO> queryList(Page page, ProductParamDTO productParamDTO) {
+    public JumpBuyDTO jumpBuy(JumpBuyParamDTO jumpBuyParamDTO) {
         return null;
     }
 
     @Override
-    public ProductDetailDTO queryProductDetail(Page page, ProductParamDTO productParamDTO) {
+    public List<ProductDTO> queryList(Page page, ProductParamDTO productParamDTO) {
         return null;
     }
 

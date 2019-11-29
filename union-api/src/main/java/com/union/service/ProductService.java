@@ -1,9 +1,10 @@
 package com.union.service;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.union.dto.param.JumpBuyParamDTO;
 import com.union.dto.param.ProductParamDTO;
+import com.union.dto.result.JumpBuyDTO;
 import com.union.dto.result.ProductDTO;
-import com.union.dto.result.ProductDetailDTO;
 
 import java.util.List;
 
@@ -13,13 +14,12 @@ public interface ProductService {
      * @return
      */
     List<ProductDTO> queryList(Page page, ProductParamDTO productParamDTO);
-
     /**
-     * 查询单个商品
-     * @param page
-     * @param productParamDTO
+     * 获取跳转
+     * @param jumpBuyParamDTO
      * @return
      */
-    ProductDetailDTO queryProductDetail(Page page, ProductParamDTO productParamDTO);
+    JumpBuyDTO jumpBuy(JumpBuyParamDTO jumpBuyParamDTO);
+
     String getCode();
 }

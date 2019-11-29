@@ -8,7 +8,8 @@ public enum ErrorEnum {
     SUSSESS("200","请求成功"),
     ERROR("500","请求失败"),
     CHECK_ERROR("10001","校验失败"),
-    SOURCE_NO_HAVE("10002","来源不存在")
+    SOURCE_NO_HAVE("10002","来源不存在"),
+    PRODUCT_NO("10003","商品不存在"),
     ;
 
     private String code;

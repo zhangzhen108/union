@@ -21,5 +21,5 @@ public class ProductParamDTO implements Serializable {
     /**
      * 来源code
      */
-    private String code;
+    private String channelCode;
 }

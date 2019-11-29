@@ -9,12 +9,16 @@ import com.taobao.api.response.TbkDgMaterialOptionalResponse;
 import com.taobao.api.response.TbkTpwdCreateResponse;
 import com.union.common.BusinessErrorException;
 import com.union.common.ErrorEnum;
+import com.union.common.JumpTypeEnum;
 import com.union.common.SourceEnum;
 import com.union.config.TbConfig;
+import com.union.dto.param.JumpBuyParamDTO;
 import com.union.dto.param.ProductParamDTO;
+import com.union.dto.result.ChannelDTO;
+import com.union.dto.result.JumpBuyDTO;
 import com.union.dto.result.ProductDTO;
-import com.union.dto.result.ProductDetailDTO;
 import com.union.service.ProductService;
+import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -32,9 +36,25 @@ public class TbProductServiceImpl implements ProductService {
     TbConfig tbConfig;
 
     @Override
-    public ProductDetailDTO queryProductDetail(Page page, ProductParamDTO productParamDTO) {
-
-        return null;
+    public JumpBuyDTO jumpBuy(JumpBuyParamDTO jumpBuyParamDTO) {
+        try{
+            if(jumpBuyParamDTO==null|| StringUtils.isEmpty(jumpBuyParamDTO.getName())||StringUtils.isEmpty(jumpBuyParamDTO.getUrl())){
+                throw new BusinessErrorException(ErrorEnum.CHECK_ERROR);
+            }
+            TaobaoClient client = new DefaultTaobaoClient(tbConfig.getServerUrl(), tbConfig.getAppkey(), tbConfig.getSecret());
+            TbkTpwdCreateRequest req = new TbkTpwdCreateRequest();
+            req.setText(jumpBuyParamDTO.getName());
+            req.setUrl("https:".concat(jumpBuyParamDTO.getUrl()));
+            req.setLogo(jumpBuyParamDTO.getImgUrl());
+            TbkTpwdCreateResponse rsp = client.execute(req);
+            JumpBuyDTO jumpBuyDTO=new JumpBuyDTO();
+            jumpBuyDTO.setJumType(JumpTypeEnum.COPY.getType());
+            jumpBuyDTO.setData(rsp.getBody());
+            return jumpBuyDTO;
+        }catch (Exception e){
+            log.error("调用TbProductServiceImpl#covertTpwd发生异常,异常信息为",e);
+            throw new BusinessErrorException(ErrorEnum.ERROR);
+        }
     }
 
     @Override
@@ -48,8 +68,18 @@ public class TbProductServiceImpl implements ProductService {
 //            req.setMaterialId(17004L);
             req.setHasCoupon(true);
             req.setAdzoneId(183612470L);
-            TbkDgMaterialOptionalResponse rsp = client.execute(req);
-            List<TbkDgMaterialOptionalResponse.MapData> mapDataList=rsp.getResultList();
+
+            List<TbkDgMaterialOptionalResponse.MapData> mapDataList=null;
+            int i=0;
+            while(true){
+                TbkDgMaterialOptionalResponse rsp = client.execute(req);
+                mapDataList=rsp.getResultList();
+                if(!CollectionUtils.isEmpty(mapDataList)||i>1){
+                    break;
+                }
+                i++;
+            }
+
 
             List<ProductDTO> productDTOList=new ArrayList<>();
             if(CollectionUtils.isEmpty(mapDataList)){
@@ -57,10 +87,14 @@ public class TbProductServiceImpl implements ProductService {
             }
             for (TbkDgMaterialOptionalResponse.MapData mapData:mapDataList) {
                 ProductDTO productDTO = new ProductDTO();
-                productDTO.setSource(SourceEnum.tb.getCode());
-                productDTO.setSourceMsg(SourceEnum.tb.getMsg());
+                ChannelDTO channelDTO=new ChannelDTO();
+                channelDTO.setCode(SourceEnum.tb.getCode());
+                channelDTO.setMsg(SourceEnum.tb.getMsg());
+                productDTO.setChannelDTO(channelDTO);
+                productDTO.setThirdId(mapData.getItemId());
                 productDTO.setName(mapData.getTitle());
                 productDTO.setImgUrl(mapData.getPictUrl());
+                productDTO.setUrl(mapData.getCouponShareUrl());
                 if(CollectionUtils.isEmpty(mapData.getSmallImages())){
                     List<String> smallImages=new ArrayList<>();
                     smallImages.add(mapData.getPictUrl());
