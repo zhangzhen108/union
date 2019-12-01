@@ -1,8 +1,31 @@
-D:\java\mypro\新建文件夹 (3)\union\union-api\src\main\java\com\union\service\impl\PddProductServiceImpl.java
-D:\java\mypro\新建文件夹 (3)\union\union-api\src\main\java\com\union\config\DocumentationConfig.java
-D:\java\mypro\新建文件夹 (3)\union\union-api\src\main\java\com\union\common\SourceEnum.java
-D:\java\mypro\新建文件夹 (3)\union\union-api\src\main\java\com\union\service\impl\JdProductServiceImpl.java
-D:\java\mypro\新建文件夹 (3)\union\union-api\src\main\java\com\union\service\ProductService.java
-D:\java\mypro\新建文件夹 (3)\union\union-api\src\main\java\com\union\UnionApplication.java
-D:\java\mypro\新建文件夹 (3)\union\union-api\src\main\java\com\union\config\PddConfig.java
-D:\java\mypro\新建文件夹 (3)\union\union-api\src\main\java\com\union\config\SwaggerConfig.java
+D:\java\project\small\union\union-api\src\main\java\com\union\service\impl\JdProductServiceImpl.java
+D:\java\project\small\union\union-api\src\main\java\com\union\trans\EntityMapper.java
+D:\java\project\small\union\union-api\src\main\java\com\union\config\SwaggerConfig.java
+D:\java\project\small\union\union-api\src\main\java\com\union\service\impl\ChannelServiceImpl.java
+D:\java\project\small\union\union-api\src\main\java\com\union\service\ProductService.java
+D:\java\project\small\union\union-api\src\main\java\com\union\trans\ChannelTrans.java
+D:\java\project\small\union\union-api\src\main\java\com\union\common\R.java
+D:\java\project\small\union\union-api\src\main\java\com\union\common\SortEnum.java
+D:\java\project\small\union\union-api\src\main\java\com\union\config\PddConfig.java
+D:\java\project\small\union\union-api\src\main\java\com\union\controller\ChannelController.java
+D:\java\project\small\union\union-api\src\main\java\com\union\common\JumpTypeEnum.java
+D:\java\project\small\union\union-api\src\main\java\com\union\service\CategoryService.java
+D:\java\project\small\union\union-api\src\main\java\com\union\domain\ChannelDO.java
+D:\java\project\small\union\union-api\src\main\java\com\union\mapper\ChannelDOMapper.java
+D:\java\project\small\union\union-api\src\main\java\com\union\trans\CategoryTrans.java
+D:\java\project\small\union\union-api\src\main\java\com\union\service\impl\CategoryServiceImpl.java
+D:\java\project\small\union\union-api\src\main\java\com\union\config\DocumentationConfig.java
+D:\java\project\small\union\union-api\src\main\java\com\union\service\impl\PddProductServiceImpl.java
+D:\java\project\small\union\union-api\src\main\java\com\union\controller\ProductController.java
+D:\java\project\small\union\union-api\src\main\java\com\union\common\BusinessErrorException.java
+D:\java\project\small\union\union-api\src\main\java\com\union\UnionApplication.java
+D:\java\project\small\union\union-api\src\main\java\com\union\controller\CategoryController.java
+D:\java\project\small\union\union-api\src\main\java\com\union\service\ChannelService.java
+D:\java\project\small\union\union-api\src\main\java\com\union\common\CommonStatusEnum.java
+D:\java\project\small\union\union-api\src\main\java\com\union\service\impl\ProductInit.java
+D:\java\project\small\union\union-api\src\main\java\com\union\common\ErrorEnum.java
+D:\java\project\small\union\union-api\src\main\java\com\union\config\TbConfig.java
+D:\java\project\small\union\union-api\src\main\java\com\union\domain\CategoryDO.java
+D:\java\project\small\union\union-api\src\main\java\com\union\mapper\CategoryDOMapper.java
+D:\java\project\small\union\union-api\src\main\java\com\union\service\impl\TbProductServiceImpl.java
+D:\java\project\small\union\union-api\src\main\java\com\union\common\SourceEnum.java

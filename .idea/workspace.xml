@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95894fa9-1c26-4c35-8894-caed0e3014d0" name="Default Changelist" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_pop_sdk_pop_sdk_1_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="95894fa9-1c26-4c35-8894-caed0e3014d0" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/PddProductServiceImpl.java" afterPath="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/PddProductServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/TbProductServiceImpl.java" afterPath="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/TbProductServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/classes/application.yml" afterPath="$PROJECT_DIR$/union-api/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/UnionApplication.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/UnionApplication.class" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/common/BusinessErrorException.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/common/BusinessErrorException.class" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/common/ErrorEnum.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/common/ErrorEnum.class" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/common/R.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/common/R.class" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/common/SourceEnum.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/common/SourceEnum.class" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/config/DocumentationConfig.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/config/DocumentationConfig.class" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/config/PddConfig.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/config/PddConfig.class" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/config/TbConfig.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/config/TbConfig.class" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/controller/ProductController.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/controller/ProductController.class" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/service/ProductService.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/service/ProductService.class" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/JdProductServiceImpl.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/JdProductServiceImpl.class" />
       <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/PddProductServiceImpl.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/PddProductServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/ProductInit.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/ProductInit.class" />
       <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/TbProductServiceImpl.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/TbProductServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/union-api.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/ProductDTO.java" afterPath="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/ProductDTO.java" />
-      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/CouponDTO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/ProductDTO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/ProductDTO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/union-dto/union-dto.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/union.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/union-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/union-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/union-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/param/ProductParamDTO.class" afterPath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/param/ProductParamDTO.class" />
+      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/CouponDTO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/PddProductDTO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/ProductDTO.class" afterPath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/ProductDTO.class" />
+      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/ProductDetailDTO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/TbProductDTO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/TbProductDetailDTO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/union-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/union-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/union-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/union-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,60 +95,155 @@
       <file leaf-file-name="PddProductServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/PddProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+            <state relative-caret-position="118">
+              <caret line="102" column="64" lean-forward="false" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PddDdkGoodsSearchResponse.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/pop-sdk/pop-sdk/1.2.5/pop-sdk-1.2.5.jar!/com/pdd/pop/sdk/http/api/response/PddDdkGoodsSearchResponse.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="247" column="20" lean-forward="false" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1573567853000" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1573567853000" expanded="false" signature="157:287" ph="..." />
+                <marker date="1573567853000" expanded="true" signature="520:527" ph="{}" />
+                <marker date="1573567853000" expanded="false" signature="610:621" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="653:659" ph=" }" />
+                <marker date="1573567853000" expanded="true" signature="718:9680" ph="{...}" />
+                <marker date="1573567853000" expanded="true" signature="4849:4860" ph="{}" />
+                <marker date="1573567853000" expanded="false" signature="4903:4918" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="4944:4954" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="4993:5008" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="5033:5043" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="5094:5109" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="5143:5153" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="5207:5222" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="5259:5269" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="5326:5341" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="5381:5391" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="5441:5456" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="5492:5502" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="5553:5568" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="5605:5615" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="5661:5676" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="5708:5718" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="5762:5777" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="5807:5817" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="5852:5867" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="5888:5898" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="5932:5947" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="5967:5977" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="6015:6030" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="6052:6062" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="6100:6115" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="6137:6147" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="6193:6208" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="6238:6248" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="6290:6305" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="6331:6341" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="6392:6407" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="6436:6446" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="6486:6501" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="6527:6537" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="6578:6593" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="6620:6630" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="6667:6682" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="6703:6713" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="6755:6770" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="6795:6805" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="6842:6857" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="6880:6890" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="6931:6946" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="6971:6981" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="7013:7028" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="7046:7056" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="7092:7107" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="7127:7137" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="7176:7191" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="7210:7220" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="7259:7274" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="7293:7303" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="7340:7355" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="7375:7385" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="7424:7439" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="7461:7471" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="7518:7533" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="7566:7576" ph=" }" />
+                <marker date="1573567853000" expanded="true" signature="7617:7632" ph=" { " />
+                <marker date="1573567853000" expanded="true" signature="7659:7669" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="7715:7730" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="7762:7772" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="7819:7834" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="7867:7877" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="7919:7934" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="7962:7972" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="8012:8027" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="8053:8063" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="8103:8118" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="8144:8154" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="8195:8210" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="8237:8247" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="8284:8299" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="8320:8330" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="8372:8387" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="8412:8422" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="8466:8481" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="8505:8515" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="8557:8572" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="8598:8608" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="8650:8665" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="8693:8703" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="8743:8758" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="8784:8794" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="8835:8850" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="8877:8887" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="8934:8949" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="8982:8992" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="9033:9048" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="9075:9085" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="9124:9139" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="9164:9174" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="9210:9225" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="9245:9255" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="9291:9306" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="9326:9336" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="9372:9387" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="9407:9417" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="9455:9470" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="9491:9501" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="9535:9550" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="9570:9580" ph=" }" />
+                <marker date="1573567853000" expanded="false" signature="9623:9638" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="9664:9674" ph=" }" />
+                <marker date="1573567853000" expanded="true" signature="9726:10215" ph="{...}" />
+                <marker date="1573567853000" expanded="true" signature="9967:9978" ph="{}" />
+                <marker date="1573567853000" expanded="true" signature="10075:10121" ph="{...}" />
+                <marker date="1573567853000" expanded="false" signature="10161:10176" ph=" { " />
+                <marker date="1573567853000" expanded="false" signature="10199:10209" ph=" }" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductDTO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/ProductDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/ProductService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbProductServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/TbProductServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="74" column="65" lean-forward="true" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/union-api/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="199">
+              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SourceEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/common/SourceEnum.java">
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/union-api/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -148,11 +254,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mybatis-plus</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,38 +278,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/config/DocumentationConfig.java" />
-        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/ProductApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/UnionApplication.java" />
-        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/JDServiceImpl.java" />
-        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/JDProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/union-dto/pom.xml" />
-        <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/CouponDTO.java" />
-        <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/ProductDTO.java" />
         <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/CouponDTO.java" />
         <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/config/PddConfig.java" />
         <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/common/R.java" />
         <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/common/BusinessErrorException.java" />
         <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/param/ProductParamDTO.java" />
         <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/ProductInit.java" />
-        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/common/ErrorEnum.java" />
-        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/common/SourceEnum.java" />
         <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/config/TbConfig.java" />
-        <option value="$PROJECT_DIR$/union-api/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/TbProductDTO.java" />
         <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/PddProductDTO.java" />
         <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/ProductDetailDTO.java" />
         <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/TbProductDetailDTO.java" />
-        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/param/CovertTpwdParamDTO.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/TbProductService.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/common/JumpTypeEnum.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/common/ErrorEnum.java" />
         <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/JdProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/union-api/pom.xml" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/JumpBuyDTO.java" />
+        <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/param/JumpBuyParamDTO.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/ProductDTO.java" />
-        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/PddProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/union-api/pom.xml" />
+        <option value="$PROJECT_DIR$/union-api/src/main/resources/mapper/mapper/ChannelDOMapper.xml" />
+        <option value="$PROJECT_DIR$/union-api/src/main/resources/mapper/mapper/CategoryDOMapper.xml" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/mapper/CategoryDOMapper.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/mapper/ChannelDOMapper.java" />
+        <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/CategoryDO.java" />
+        <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/CategoryDTO.java" />
+        <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/ChannelDTO.java" />
+        <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/param/ChannelParamDTO.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/ChannelService.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/trans/EntityMapper.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/common/CommonStatusEnum.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/trans/ChannelTrans.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/trans/CategoryTrans.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/controller/ChannelController.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/common/SourceEnum.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/UnionApplication.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/domain/ChannelDO.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/domain/CategoryDO.java" />
+        <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/param/CategoryParamDTO.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/common/SortEnum.java" />
         <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/TbProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/param/ProductParamDTO.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/ChannelServiceImpl.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/union-api/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/PddProductServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -212,7 +342,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\MavenRepository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.5.3-bin-back/apache-maven-3.5.3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.5.2-bin/apache-maven-3.5.2" />
         <option name="userSettingsFile" value="D:\java\maven\apache-maven-3.5.2-bin\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -226,16 +356,24 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="union" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="union-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="union-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
@@ -259,6 +397,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,14 +472,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="union" type="b2602c69:ProjectViewProjectNode" />
+              <item name="union" type="462c0819:PsiDirectoryNode" />
+              <item name="union-api" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,15 +501,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\project\small\union\union-api\src\main\resources\static\image" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.union.dto.param" />
       <recent name="com.union.common" />
       <recent name="com.union" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java\mypro\新建文件夹 (3)\union\union-api\src\main\java\com\union\config" />
-      <recent name="D:\java\mypro\新建文件夹 (3)\union\union-api\src\main\resources" />
-      <recent name="D:\java\mypro\新建文件夹 (3)\union\union-api\src\main\java" />
-      <recent name="D:\java\mypro\新建文件夹 (3)\union\src\main\resources" />
+      <recent name="D:\java\project\small\union\union-api\src\main\resources\static\image" />
+      <recent name="D:\java\project\small\union\union-api\src\main\java\com\union\common" />
+      <recent name="D:\java\project\small\union\union-api\src\main\java\com\union\trans" />
+      <recent name="D:\java\project\small\union\union-dto\src\main\java\com\union\dto\result" />
+      <recent name="D:\java\project\small\union\union-api\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -455,6 +604,28 @@
       <workItem from="1574518354106" duration="725000" />
       <workItem from="1574519333318" duration="10484000" />
     </task>
+    <task id="LOCAL-00001" summary="wfegh">
+      <created>1575050432927</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575050432927</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Default Changelist">
+      <created>1575172967539</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575172967539</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Default Changelist">
+      <created>1575201988300</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575201988300</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -474,24 +645,24 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8832547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38915095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7134434" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18160377" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6992925" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7134434" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25375536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2912736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7783019" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -504,25 +675,25 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7783019" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7169811" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7783019" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8832547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38915095" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6992925" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18160377" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25375536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -534,317 +705,544 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wfegh" />
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/TbProductServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/common/JumpTypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="61" column="42" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/PddProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="522">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#349#350#0" expanded="false" />
+            <element signature="e#381#382#0" expanded="false" />
+            <element signature="e#411#412#0" expanded="false" />
+            <element signature="e#437#438#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#505#506#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/ProductService.java">
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/TbProductService.java" />
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/common/ErrorEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="363">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/TbProductServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/pop-sdk/pop-sdk/1.2.5/pop-sdk-1.2.5.jar!/com/pdd/pop/sdk/http/api/response/PddDdkGoodsPromotionUrlGenerateResponse.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="298">
+          <caret line="182" column="27" lean-forward="false" selection-start-line="182" selection-start-column="27" selection-end-line="182" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/param/CovertTpwdParamDTO.java" />
+    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/CouponDTO.java" />
+    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/ProductDetailDTO.java" />
+    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/PddProductDTO.java" />
+    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/JumpBuyDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/param/JumpBuyParamDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/JdProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        <state relative-caret-position="234">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#707#708#0" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/common/R.java">
+    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/ProductDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="226">
+          <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/resources/static/image/jd.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/resources/static/image/beauty-makeup.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="106" column="57" lean-forward="false" selection-start-line="106" selection-start-column="57" selection-end-line="106" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/resources/mapper/mapper/ChannelDOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/resources/mapper/mapper/CategoryDOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/ChannelDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/ChannelDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/mapper/CategoryDOMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/mapper/ChannelDOMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/param/ChannelParamDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/common/CommonStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/trans/EntityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/trans/ChannelTrans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/trans/CategoryTrans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/ChannelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/common/SourceEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="225">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/config/DocumentationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/config/PddConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4725">
-          <caret line="118" column="68" lean-forward="false" selection-start-line="118" selection-start-column="68" selection-end-line="118" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/config/TbConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml" />
-    <entry file="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-swagger-common/2.7.0/springfox-swagger-common-2.7.0.jar!/springfox/documentation/swagger/web/SwaggerResourcesProvider.class" />
-    <entry file="file://$PROJECT_DIR$/union-dto/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.2.0/mybatis-plus-core-3.2.0.jar!/com/baomidou/mybatisplus/core/metadata/IPage.class" />
-    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/CouponDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.2.0/mybatis-plus-extension-3.2.0.jar!/com/baomidou/mybatisplus/extension/plugins/pagination/Page.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/pop-sdk/pop-sdk/1.2.5/pop-sdk-1.2.5.jar!/com/pdd/pop/sdk/http/PopBaseHttpResponse.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/pop-sdk/pop-sdk/1.2.5/pop-sdk-1.2.5.jar!/com/pdd/pop/sdk/http/PopClient.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/pop-sdk/pop-sdk/1.2.5/pop-sdk-1.2.5.jar!/com/pdd/pop/sdk/http/PopHttpClient.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/pop-sdk/pop-sdk/1.2.5/pop-sdk-1.2.5.jar!/com/pdd/pop/sdk/http/api/response/PddDdkGoodsSearchResponse.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/pop-sdk/pop-sdk/1.2.5/pop-sdk-1.2.5.jar!/com/pdd/pop/sdk/http/api/request/PddDdkGoodsSearchRequest.class" />
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/ProductInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/taobao/sdk/taobao-sdk/1.0/taobao-sdk-1.0.jar!/com/taobao/api/AutoRetryTaobaoClient.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/taobao/sdk/taobao-sdk/1.0/taobao-sdk-1.0.jar!/com/taobao/api/internal/feature/AutoRetryFeature.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/taobao/sdk/taobao-sdk/1.0/taobao-sdk-1.0.jar!/com/taobao/api/TaobaoClient.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/taobao/sdk/taobao-sdk/1.0/taobao-sdk-1.0.jar!/com/taobao/api/DefaultTaobaoClient.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/taobao/sdk/taobao-sdk/1.0/taobao-sdk-1.0.jar!/com/taobao/api/response/TbkDgMaterialOptionalResponse.class" />
-    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/param/ProductParamDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/TbProductDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/PddProductDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/ProductDetailDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/TbProductDetailDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/common/BusinessErrorException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/common/ErrorEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/common/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/config/DocumentationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/config/PddConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4725">
-          <caret line="118" column="68" lean-forward="false" selection-start-line="118" selection-start-column="68" selection-end-line="118" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/config/TbConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/JdProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/UnionApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.2.0/mybatis-plus-annotation-3.2.0.jar!/com/baomidou/mybatisplus/annotation/KeySequence.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="237">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.2.0/mybatis-plus-annotation-3.2.0.jar!/com/baomidou/mybatisplus/annotation/TableId.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/domain/ChannelDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/domain/CategoryDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/param/CategoryParamDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/CategoryDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="58" lean-forward="false" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/taobao/sdk/taobao-sdk/1.0/taobao-sdk-1.0.jar!/com/taobao/api/request/TbkDgMaterialOptionalRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/controller/ChannelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/common/SortEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#277#278#0" expanded="false" />
+            <element signature="e#304#305#0" expanded="false" />
+            <element signature="e#345#346#0" expanded="false" />
+            <element signature="e#377#378#0" expanded="false" />
+            <element signature="e#407#408#0" expanded="false" />
+            <element signature="e#433#434#0" expanded="false" />
+            <element signature="e#471#472#0" expanded="false" />
+            <element signature="e#501#502#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/param/ProductParamDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/TbProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="79" column="13" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="79" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="273">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/common/SourceEnum.java">
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/ProductInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/ChannelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/pop-sdk/pop-sdk/1.2.5/pop-sdk-1.2.5.jar!/com/pdd/pop/sdk/http/api/response/PddDdkGoodsSearchResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="247" column="20" lean-forward="false" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
+          <folding>
+            <marker date="1573567853000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1573567853000" expanded="false" signature="157:287" ph="..." />
+            <marker date="1573567853000" expanded="true" signature="520:527" ph="{}" />
+            <marker date="1573567853000" expanded="false" signature="610:621" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="653:659" ph=" }" />
+            <marker date="1573567853000" expanded="true" signature="718:9680" ph="{...}" />
+            <marker date="1573567853000" expanded="true" signature="4849:4860" ph="{}" />
+            <marker date="1573567853000" expanded="false" signature="4903:4918" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="4944:4954" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="4993:5008" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="5033:5043" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="5094:5109" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="5143:5153" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="5207:5222" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="5259:5269" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="5326:5341" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="5381:5391" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="5441:5456" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="5492:5502" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="5553:5568" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="5605:5615" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="5661:5676" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="5708:5718" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="5762:5777" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="5807:5817" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="5852:5867" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="5888:5898" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="5932:5947" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="5967:5977" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="6015:6030" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="6052:6062" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="6100:6115" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="6137:6147" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="6193:6208" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="6238:6248" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="6290:6305" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="6331:6341" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="6392:6407" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="6436:6446" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="6486:6501" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="6527:6537" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="6578:6593" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="6620:6630" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="6667:6682" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="6703:6713" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="6755:6770" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="6795:6805" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="6842:6857" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="6880:6890" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="6931:6946" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="6971:6981" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="7013:7028" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="7046:7056" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="7092:7107" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="7127:7137" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="7176:7191" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="7210:7220" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="7259:7274" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="7293:7303" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="7340:7355" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="7375:7385" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="7424:7439" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="7461:7471" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="7518:7533" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="7566:7576" ph=" }" />
+            <marker date="1573567853000" expanded="true" signature="7617:7632" ph=" { " />
+            <marker date="1573567853000" expanded="true" signature="7659:7669" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="7715:7730" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="7762:7772" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="7819:7834" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="7867:7877" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="7919:7934" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="7962:7972" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="8012:8027" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="8053:8063" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="8103:8118" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="8144:8154" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="8195:8210" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="8237:8247" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="8284:8299" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="8320:8330" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="8372:8387" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="8412:8422" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="8466:8481" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="8505:8515" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="8557:8572" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="8598:8608" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="8650:8665" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="8693:8703" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="8743:8758" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="8784:8794" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="8835:8850" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="8877:8887" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="8934:8949" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="8982:8992" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="9033:9048" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="9075:9085" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="9124:9139" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="9164:9174" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="9210:9225" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="9245:9255" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="9291:9306" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="9326:9336" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="9372:9387" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="9407:9417" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="9455:9470" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="9491:9501" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="9535:9550" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="9570:9580" ph=" }" />
+            <marker date="1573567853000" expanded="false" signature="9623:9638" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="9664:9674" ph=" }" />
+            <marker date="1573567853000" expanded="true" signature="9726:10215" ph="{...}" />
+            <marker date="1573567853000" expanded="true" signature="9967:9978" ph="{}" />
+            <marker date="1573567853000" expanded="true" signature="10075:10121" ph="{...}" />
+            <marker date="1573567853000" expanded="false" signature="10161:10176" ph=" { " />
+            <marker date="1573567853000" expanded="false" signature="10199:10209" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/PddProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="102" column="64" lean-forward="false" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/union-api/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-dto/src/main/java/com/union/dto/result/ProductDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/PddProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/TbProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="74" column="65" lean-forward="true" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
+        <state relative-caret-position="199">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="33" />
           <folding />
         </state>
       </provider>
