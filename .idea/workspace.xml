@@ -3,32 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95894fa9-1c26-4c35-8894-caed0e3014d0" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/application.yml" afterPath="$PROJECT_DIR$/union-api/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/UnionApplication.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/UnionApplication.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/common/BusinessErrorException.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/common/BusinessErrorException.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/common/ErrorEnum.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/common/ErrorEnum.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/common/R.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/common/R.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/common/SourceEnum.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/common/SourceEnum.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/config/DocumentationConfig.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/config/DocumentationConfig.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/config/PddConfig.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/config/PddConfig.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/config/TbConfig.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/config/TbConfig.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/controller/ProductController.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/controller/ProductController.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/service/ProductService.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/service/ProductService.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/JdProductServiceImpl.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/JdProductServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/PddProductServiceImpl.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/PddProductServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/ProductInit.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/ProductInit.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/TbProductServiceImpl.class" afterPath="$PROJECT_DIR$/union-api/target/classes/com/union/service/impl/TbProductServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/union-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/union-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/union-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/param/ProductParamDTO.class" afterPath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/param/ProductParamDTO.class" />
-      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/CouponDTO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/PddProductDTO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/ProductDTO.class" afterPath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/ProductDTO.class" />
-      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/ProductDetailDTO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/TbProductDTO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/union-dto/target/classes/com/union/dto/result/TbProductDetailDTO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/union-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/union-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/union-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/union-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,11 +66,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PddProductServiceImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PddProductServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/PddProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="102" column="64" lean-forward="false" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
+            <state relative-caret-position="495">
+              <caret line="112" column="98" lean-forward="false" selection-start-line="112" selection-start-column="98" selection-end-line="112" selection-end-column="98" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BigDecimal.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../jdk1.8/jdk/src.zip!/java/math/BigDecimal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="1657" column="22" lean-forward="false" selection-start-line="1657" selection-start-column="22" selection-end-line="1657" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -105,7 +89,7 @@
       <file leaf-file-name="PddDdkGoodsSearchResponse.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/pop-sdk/pop-sdk/1.2.5/pop-sdk-1.2.5.jar!/com/pdd/pop/sdk/http/api/response/PddDdkGoodsSearchResponse.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="8190">
               <caret line="247" column="20" lean-forward="false" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
               <folding>
                 <marker date="1573567853000" expanded="false" signature="0:104" ph="/.../" />
@@ -229,10 +213,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/union-api/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="97">
               <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="33" />
               <folding />
             </state>
@@ -242,7 +226,7 @@
       <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/union-api/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="540">
               <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="65" />
               <folding />
             </state>
@@ -397,10 +381,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -482,6 +463,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -625,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575201988300</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Default Changelist">
+      <created>1575212003464</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575212003464</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -649,20 +640,20 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7134434" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19339623" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6992925" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7134434" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19339623" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25375536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7783019" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7783019" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -675,25 +666,25 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7783019" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19339623" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7783019" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7783019" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8832547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38915095" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6992925" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18160377" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25375536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19339623" sideWeight="0.49570817" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -717,28 +708,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/common/JumpTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#308#309#0" expanded="false" />
-            <element signature="e#349#350#0" expanded="false" />
-            <element signature="e#381#382#0" expanded="false" />
-            <element signature="e#411#412#0" expanded="false" />
-            <element signature="e#437#438#0" expanded="false" />
-            <element signature="e#475#476#0" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/TbProductService.java" />
     <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/common/ErrorEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,7 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
           <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
           <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,9 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,9 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,9 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,9 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,9 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,9 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -987,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="20" column="58" lean-forward="false" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,9 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1029,16 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <element signature="e#277#278#0" expanded="false" />
-            <element signature="e#304#305#0" expanded="false" />
-            <element signature="e#345#346#0" expanded="false" />
-            <element signature="e#377#378#0" expanded="false" />
-            <element signature="e#407#408#0" expanded="false" />
-            <element signature="e#433#434#0" expanded="false" />
-            <element signature="e#471#472#0" expanded="false" />
-            <element signature="e#501#502#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1100,7 +1028,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/union-api/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="540">
           <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="65" />
           <folding />
         </state>
@@ -1108,7 +1036,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/pop-sdk/pop-sdk/1.2.5/pop-sdk-1.2.5.jar!/com/pdd/pop/sdk/http/api/response/PddDdkGoodsSearchResponse.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="8190">
           <caret line="247" column="20" lean-forward="false" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
           <folding>
             <marker date="1573567853000" expanded="false" signature="0:104" ph="/.../" />
@@ -1231,18 +1159,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/PddProductServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="102" column="64" lean-forward="false" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
+        <state relative-caret-position="97">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/union-api/src/main/resources/application.yml">
+    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8/jdk/src.zip!/java/math/BigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="264">
+          <caret line="1657" column="22" lean-forward="false" selection-start-line="1657" selection-start-column="22" selection-end-line="1657" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/union-api/src/main/java/com/union/service/impl/PddProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="112" column="98" lean-forward="false" selection-start-line="112" selection-start-column="98" selection-end-line="112" selection-end-column="98" />
           <folding />
         </state>
       </provider>
