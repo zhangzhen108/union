@@ -7,10 +7,7 @@ import com.taobao.api.request.TbkDgMaterialOptionalRequest;
 import com.taobao.api.request.TbkTpwdCreateRequest;
 import com.taobao.api.response.TbkDgMaterialOptionalResponse;
 import com.taobao.api.response.TbkTpwdCreateResponse;
-import com.union.common.BusinessErrorException;
-import com.union.common.ErrorEnum;
-import com.union.common.JumpTypeEnum;
-import com.union.common.SourceEnum;
+import com.union.common.*;
 import com.union.config.TbConfig;
 import com.union.dto.param.JumpBuyParamDTO;
 import com.union.dto.param.ProductParamDTO;
@@ -65,9 +62,22 @@ public class TbProductServiceImpl implements ProductService {
             req.setPageSize(page.getSize());
             req.setPageNo(page.getCurrent());
             req.setQ(productParamDTO.getKeyword());
+            req.setCat(String.valueOf(productParamDTO.getCategoryThirdId()));
 //            req.setMaterialId(17004L);
             req.setHasCoupon(true);
             req.setAdzoneId(183612470L);
+            if(StringUtils.isNotEmpty(productParamDTO.getSortFiled())){
+                if(productParamDTO.getSort()==null){
+                    productParamDTO.setSort(SortEnum.DESC.getSort());
+                }
+                String sort=null;
+                if(productParamDTO.getSort()==SortEnum.DESC.getSort()){
+                    sort="desc";
+                }else{
+                    sort="asc";
+                }
+                req.setSort(productParamDTO.getSortFiled().concat("_").concat(sort));
+            }
 
             List<TbkDgMaterialOptionalResponse.MapData> mapDataList=null;
             int i=0;
@@ -90,6 +100,7 @@ public class TbProductServiceImpl implements ProductService {
                 ChannelDTO channelDTO=new ChannelDTO();
                 channelDTO.setCode(SourceEnum.tb.getCode());
                 channelDTO.setMsg(SourceEnum.tb.getMsg());
+                channelDTO.setId(SourceEnum.tb.getId());
                 productDTO.setChannelDTO(channelDTO);
                 productDTO.setThirdId(mapData.getItemId());
                 productDTO.setName(mapData.getTitle());

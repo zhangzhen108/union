@@ -1,12 +1,13 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/mall?characterEncoding=UTF-8&serverTimezone=GMT&useSSL=true
-    username: root
-    password:
+    url: jdbc:mysql://39.105.40.119:3306/union?characterEncoding=UTF-8&serverTimezone=GMT&useSSL=true
+    username: eliteai
+    password: wp7706388
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 info:
   app:
+    img-url: http://39.105.40.119:8082/image/
     name: product
     desc: product
 security:

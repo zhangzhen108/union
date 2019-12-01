@@ -1,17 +1,13 @@
 package com.union.service.impl;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.pdd.pop.sdk.common.util.JsonUtil;
 import com.pdd.pop.sdk.http.PopClient;
 import com.pdd.pop.sdk.http.PopHttpClient;
 import com.pdd.pop.sdk.http.api.request.PddDdkGoodsPromotionUrlGenerateRequest;
 import com.pdd.pop.sdk.http.api.request.PddDdkGoodsSearchRequest;
 import com.pdd.pop.sdk.http.api.response.PddDdkGoodsPromotionUrlGenerateResponse;
 import com.pdd.pop.sdk.http.api.response.PddDdkGoodsSearchResponse;
-import com.union.common.BusinessErrorException;
-import com.union.common.ErrorEnum;
-import com.union.common.JumpTypeEnum;
-import com.union.common.SourceEnum;
+import com.union.common.*;
 import com.union.config.PddConfig;
 import com.union.dto.param.JumpBuyParamDTO;
 import com.union.dto.param.ProductParamDTO;
@@ -19,13 +15,13 @@ import com.union.dto.result.ChannelDTO;
 import com.union.dto.result.JumpBuyDTO;
 import com.union.dto.result.ProductDTO;
 import com.union.service.ProductService;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
 import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 /**
@@ -75,9 +71,19 @@ public class PddProductServiceImpl implements ProductService {
             //request.setOptId(0L);
             request.setPage((int) page.getCurrent());
             request.setPageSize((int) page.getSize());
-            request.setSortType(productParamDTO.getSortType());
             request.setWithCoupon(true);
-            request.setCatId(productParamDTO.getCategoryId());
+            request.setCatId(productParamDTO.getCategoryThirdId());
+            if(StringUtils.isNotEmpty(productParamDTO.getSortFiled())){
+                if(productParamDTO.getSort()==null){
+                    productParamDTO.setSort(SortEnum.DESC.getSort());
+                }
+                if(productParamDTO.getSort()==SortEnum.DESC.getSort()){
+                    request.setSortType(4);
+                }else{
+                    request.setSortType(3);
+                }
+
+            }
             PddDdkGoodsSearchResponse response = client.syncInvoke(request);
             PddDdkGoodsSearchResponse.GoodsSearchResponse goodsSearchResponse = response.getGoodsSearchResponse();
             List<PddDdkGoodsSearchResponse.GoodsSearchResponseGoodsListItem> goodsList = goodsSearchResponse.getGoodsList();
@@ -91,6 +97,7 @@ public class PddProductServiceImpl implements ProductService {
                 ChannelDTO channelDTO=new ChannelDTO();
                 channelDTO.setCode(SourceEnum.jdd.getCode());
                 channelDTO.setMsg(SourceEnum.jdd.getMsg());
+                channelDTO.setId(SourceEnum.jdd.getId());
                         productDTO.setChannelDTO(channelDTO);
                 productDTO.setDesc(good.getGoodsDesc());
                         productDTO.setName(good.getGoodsName());
@@ -103,9 +110,9 @@ public class PddProductServiceImpl implements ProductService {
                             productDTO.setSmallImages(good.getGoodsGalleryUrls());
                         }
 
-                productDTO.setCouponAmount(new BigDecimal(good.getCouponDiscount()));
-                        BigDecimal price = new BigDecimal((good.getMinGroupPrice() - good.getCouponDiscount()));
-                productDTO.setOriginalPrice(new BigDecimal(good.getMinGroupPrice()));
+                productDTO.setCouponAmount(new BigDecimal(good.getCouponDiscount()/100));
+                        BigDecimal price = new BigDecimal((good.getMinGroupPrice() - good.getCouponDiscount())/100);
+                productDTO.setOriginalPrice(new BigDecimal(good.getMinGroupPrice()/100));
                         productDTO.setPrice(price);
                 productDTOList.add(productDTO);
                     }

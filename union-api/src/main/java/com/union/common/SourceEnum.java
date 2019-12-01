@@ -4,17 +4,18 @@ package com.union.common;
  * 来源
  */
 public enum SourceEnum {
-    jdd(1,"product-pdd","拼多多"),
-    jd(2,"product-jd","京东"),
-    tb(3,"product-tb","淘宝"),
+    jdd(1l,"product-pdd","拼多多"),
+    tb(2l,"product-tb","淘宝"),
+    jd(3l,"product-jd","京东"),
+    mgj(4l,"product-mgj","蘑菇街"),
     ;
 
-    private Integer scource;
+    private Long id;
     private String code;
     private String msg;
 
-    SourceEnum(Integer scource, String code, String msg) {
-        this.scource = scource;
+    SourceEnum(Long id, String code, String msg) {
+        this.id = id;
         this.code = code;
         this.msg = msg;
     }
@@ -27,12 +28,12 @@ public enum SourceEnum {
         this.code = code;
     }
 
-    public Integer getScource() {
-        return scource;
+    public Long getId() {
+        return id;
     }
 
-    public void setScource(Integer scource) {
-        this.scource = scource;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getMsg() {

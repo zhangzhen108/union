@@ -9,7 +9,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @ComponentScan("com.union")
-@MapperScan("com.union.dao")
+@MapperScan("com.union.mapper")
 @EnableSwagger2
 public class UnionApplication {
 

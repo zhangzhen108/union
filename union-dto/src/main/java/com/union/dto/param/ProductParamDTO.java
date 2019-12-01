@@ -13,7 +13,7 @@ public class ProductParamDTO implements Serializable {
     /**
      * 类目id
      */
-    private Long categoryId;
+    private Long categoryThirdId;
     /**
      * 排序类型
      */
@@ -22,4 +22,12 @@ public class ProductParamDTO implements Serializable {
      * 来源code
      */
     private String channelCode;
+    /**
+     * 1--正序 2--倒叙
+     */
+    private Integer sort;
+    /**
+     * 排序字段
+     */
+    private String sortFiled;
 }
