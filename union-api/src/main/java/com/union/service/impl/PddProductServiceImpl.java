@@ -109,11 +109,11 @@ public class PddProductServiceImpl implements ProductService {
                         }else {
                             productDTO.setSmallImages(good.getGoodsGalleryUrls());
                         }
-
-                productDTO.setCouponAmount(new BigDecimal(good.getCouponDiscount()/100));
-                        BigDecimal price = new BigDecimal((good.getMinGroupPrice() - good.getCouponDiscount())/100);
-                productDTO.setOriginalPrice(new BigDecimal(good.getMinGroupPrice()/100));
-                        productDTO.setPrice(price);
+                BigDecimal divisor=new BigDecimal(100);
+                productDTO.setCouponAmount(new BigDecimal(good.getCouponDiscount()).divide(divisor));
+                        BigDecimal price = new BigDecimal((good.getMinGroupPrice() - good.getCouponDiscount()));
+                productDTO.setOriginalPrice(new BigDecimal(good.getMinGroupPrice()).divide(divisor));
+                        productDTO.setPrice(price.divide(divisor));
                 productDTOList.add(productDTO);
                     }
             );
