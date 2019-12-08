@@ -8,14 +8,14 @@ public class R<T> {
     private T data;
     public static R ok(){
         R r=new R();
-        r.code=ErrorEnum.SUSSESS.getCode();
-        r.msg=ErrorEnum.SUSSESS.getMsg();
+        r.code=ErrorEnum.SUCCESS.getCode();
+        r.msg=ErrorEnum.SUCCESS.getMsg();
         return r;
     }
-    public static <T> R creatR(String errorCode,String errorMsg){
+    public static <T> R creatR(ErrorEnum errorEnum){
         R r=new R();
-        r.code=errorCode;
-        r.msg=errorMsg;
+        r.code=errorEnum.getCode();
+        r.msg=errorEnum.getMsg();
         return r;
     }
     public static <T> R creatR(T o,ErrorEnum errorEnum){
@@ -27,8 +27,8 @@ public class R<T> {
     }
     private static <T> R ok(T o){
         R r=new R();
-        r.code=ErrorEnum.SUSSESS.getCode();
-        r.msg=ErrorEnum.SUSSESS.getMsg();
+        r.code=ErrorEnum.SUCCESS.getCode();
+        r.msg=ErrorEnum.SUCCESS.getMsg();
         r.data=o;
         return r;
     }

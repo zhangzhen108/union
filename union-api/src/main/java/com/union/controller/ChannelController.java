@@ -24,6 +24,6 @@ public class ChannelController {
     @GetMapping("queryList")
     public R queryList(ChannelParamDTO channelParamDTO){
         List<ChannelDTO> channelDTOList= channelService.queryList(channelParamDTO);
-        return R.creatR(channelDTOList, ErrorEnum.SUSSESS);
+        return R.creatR(channelDTOList, ErrorEnum.SUCCESS);
     }
 }

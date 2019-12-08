@@ -35,10 +35,7 @@
         <javaClientGenerator type="MAPPER" targetPackage="com.union.mapper" targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
-        <table tableName="category_info" domainObjectName="CategoryDO" enableCountByExample="false"
-               enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
-               selectByExampleQueryId="false"></table>
-        <table tableName="channel_info" domainObjectName="ChannelDO" enableCountByExample="false"
+        <table tableName="order_info" domainObjectName="OrderDO" enableCountByExample="false"
                enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false"></table>
     </context>

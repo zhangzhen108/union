@@ -32,7 +32,7 @@ public class ProductController {
             throw new BusinessErrorException(ErrorEnum.SOURCE_NO_HAVE);
         }
         List<ProductDTO>  productDTOList=productService.queryList(page,productParamDTO);
-        return R.creatR(productDTOList, ErrorEnum.SUSSESS);
+        return R.creatR(productDTOList, ErrorEnum.SUCCESS);
     }
     @GetMapping("buyNow")
     public R buyNow(JumpBuyParamDTO jumpBuyParamDTO){
@@ -44,6 +44,6 @@ public class ProductController {
             throw new BusinessErrorException(ErrorEnum.SOURCE_NO_HAVE);
         }
        JumpBuyDTO jumpBuyDTO=productService.jumpBuy(jumpBuyParamDTO);
-        return R.creatR(jumpBuyDTO, ErrorEnum.SUSSESS);
+        return R.creatR(jumpBuyDTO, ErrorEnum.SUCCESS);
     }
 }

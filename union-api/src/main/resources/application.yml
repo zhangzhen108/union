@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: union
   datasource:
     url: jdbc:mysql://39.105.40.119:3306/union?characterEncoding=UTF-8&serverTimezone=GMT&useSSL=true
     username: eliteai
@@ -12,22 +14,18 @@ info:
     desc: product
 security:
   oauth2:
-    client:
-      client-id: client_2
-      client-secret: $2a$10$ijOPEDarOjkdahi3xpslIu6.cMpBVqYWpbGTkCh0h7Kjt4.NWQwkK
-      access-token-uri: http://localhost:8088/oauth/token
-      user-authorization-uri: http://localhost:8088/oauth/authorize
     resource:
-      user-info-uri: http://localhost:8088/user
+      user-info-uri: http://localhost:9004/user
       prefer-token-info: false
+      jwt:
+        keyUri: http://localhost:9004/oauth/token_key
 server:
   port: 8082
 logging:
   level:
-    root: info
+    root: debug
     com:
-      zz:
-        product: debug
+      union: debug
 pdd:
   client-id: 3d0d27ab85fe4fbd97982078d0e151c7
   client-secret: 62f2502cae0b3a117b475374ad5ffdc6fe8bc6b9
@@ -35,3 +33,11 @@ tb:
   server-url: http://gw.api.taobao.com/router/rest
   appkey: 28125995
   secret: 9f6a45fbeca9e587b098c7e08cd88fe1
+##  eureka配置
+eureka:
+  instance:
+    prefer-ip-address: true #使用IP注册
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@39.105.40.119:9000/eureka/

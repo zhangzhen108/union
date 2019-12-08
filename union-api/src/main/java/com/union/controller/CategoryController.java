@@ -20,6 +20,6 @@ public class CategoryController {
     @GetMapping("queryList")
     public R queryList(CategoryParamDTO categoryParamDTO){
         List<CategoryDTO> categoryDTOList= categoryService.queryList(categoryParamDTO);
-        return R.creatR(categoryDTOList, ErrorEnum.SUSSESS);
+        return R.creatR(categoryDTOList, ErrorEnum.SUCCESS);
     }
 }

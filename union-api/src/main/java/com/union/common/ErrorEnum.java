@@ -5,8 +5,16 @@ package com.union.common;/*
  */
 
 public enum ErrorEnum {
-    SUSSESS("200","请求成功"),
+    // 公用
+    SUCCESS("200","请求成功"),
     ERROR("500","请求失败"),
+    LOGIN_ERROR("401","登录失败"),
+    TOKEN_FAILURE("402","token无效"),
+    TOKEN_MISS("403","token不存在"),
+    AUTH_DENIED("404","权限不足"),
+
+
+    // 私有
     CHECK_ERROR("10001","校验失败"),
     SOURCE_NO_HAVE("10002","来源不存在"),
     PRODUCT_NO("10003","商品不存在"),
