@@ -7,15 +7,17 @@ import java.io.Serializable;
 public class JumpBuyParamDTO implements Serializable {
     private static final long serialVersionUID = 4024343224373776969L;
 
-    private Long id;
-
     private String name;
 
     private String url;
 
     private String imgUrl;
 
+    private String couponUrl;
+
     private String productId;
 
     private String channelCode;
+
+    private String couponId;
 }

@@ -8,18 +8,22 @@ import com.union.dto.result.ProductDTO;
 
 import java.util.List;
 
-public interface ProductService {
+public abstract class ProductService {
+
+    public void login(String code,String state){
+
+    }
     /**
      * 查询商品列表
      * @return
      */
-    List<ProductDTO> queryList(Page page, ProductParamDTO productParamDTO);
+    public abstract List<ProductDTO> queryList(Page page, ProductParamDTO productParamDTO);
     /**
      * 获取跳转
      * @param jumpBuyParamDTO
      * @return
      */
-    JumpBuyDTO jumpBuy(JumpBuyParamDTO jumpBuyParamDTO);
+    public abstract JumpBuyDTO jumpBuy(JumpBuyParamDTO jumpBuyParamDTO);
 
-    String getCode();
+    public abstract String getCode();
 }

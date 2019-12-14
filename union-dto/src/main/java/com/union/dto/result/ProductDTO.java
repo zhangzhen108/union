@@ -14,7 +14,7 @@ public class ProductDTO implements Serializable {
     /**
      * 第三方id
      */
-    private Long thirdId;
+    private String thirdId;
     /**
      * 商品名称
      */
@@ -51,4 +51,8 @@ public class ProductDTO implements Serializable {
      * 渠道
      */
     private ChannelDTO channelDTO;
+
+    private String couponUrl;
+
+    private String couponId;
 }

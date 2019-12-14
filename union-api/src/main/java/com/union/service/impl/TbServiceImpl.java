@@ -27,7 +27,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class TbProductServiceImpl implements ProductService {
+public class TbServiceImpl extends ProductService {
     private final Logger log = LoggerFactory.getLogger(this.getClass());
     @Resource
     TbConfig tbConfig;
@@ -102,7 +102,7 @@ public class TbProductServiceImpl implements ProductService {
                 channelDTO.setMsg(SourceEnum.tb.getMsg());
                 channelDTO.setId(SourceEnum.tb.getId());
                 productDTO.setChannelDTO(channelDTO);
-                productDTO.setThirdId(mapData.getItemId());
+                productDTO.setThirdId(String.valueOf(mapData.getItemId()));
                 productDTO.setName(mapData.getTitle());
                 productDTO.setImgUrl(mapData.getPictUrl());
                 productDTO.setUrl(mapData.getCouponShareUrl());

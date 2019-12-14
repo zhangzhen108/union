@@ -28,36 +28,36 @@ import java.util.List;
  * 拼多多商品
  */
 @Service
-public class PddProductServiceImpl implements ProductService {
+public class PddServiceImpl extends ProductService {
     @Resource
     PddConfig pddConfig;
 
     @Override
     public JumpBuyDTO jumpBuy(JumpBuyParamDTO jumpBuyParamDTO) {
-        try{
+        try {
             PopClient client = new PopHttpClient(pddConfig.getClientId(), pddConfig.getClientSecret());
             PddDdkGoodsPromotionUrlGenerateRequest request = new PddDdkGoodsPromotionUrlGenerateRequest();
             request.setPId("9431971_122301546");
             request.setGenerateWeApp(true);
             List<Long> goodsIdList = new ArrayList<Long>();
-            goodsIdList.add(jumpBuyParamDTO.getId());
+            goodsIdList.add(Long.valueOf(jumpBuyParamDTO.getProductId()));
             request.setGoodsIdList(goodsIdList);
             PddDdkGoodsPromotionUrlGenerateResponse response = client.syncInvoke(request);
-            PddDdkGoodsPromotionUrlGenerateResponse.GoodsPromotionUrlGenerateResponse goodsPromotionUrlGenerateResponse=response.getGoodsPromotionUrlGenerateResponse();
-            List<PddDdkGoodsPromotionUrlGenerateResponse.GoodsPromotionUrlGenerateResponseGoodsPromotionUrlListItem> goodsPromotionUrlList=goodsPromotionUrlGenerateResponse.getGoodsPromotionUrlList();
-            if(CollectionUtils.isEmpty(goodsPromotionUrlList)){
+            PddDdkGoodsPromotionUrlGenerateResponse.GoodsPromotionUrlGenerateResponse goodsPromotionUrlGenerateResponse = response.getGoodsPromotionUrlGenerateResponse();
+            List<PddDdkGoodsPromotionUrlGenerateResponse.GoodsPromotionUrlGenerateResponseGoodsPromotionUrlListItem> goodsPromotionUrlList = goodsPromotionUrlGenerateResponse.getGoodsPromotionUrlList();
+            if (CollectionUtils.isEmpty(goodsPromotionUrlList)) {
                 throw new BusinessErrorException(ErrorEnum.PRODUCT_NO);
             }
-            PddDdkGoodsPromotionUrlGenerateResponse.GoodsPromotionUrlGenerateResponseGoodsPromotionUrlListItemWeAppInfo weAppInfo=goodsPromotionUrlList.get(0).getWeAppInfo();
-            if(weAppInfo==null){
+            PddDdkGoodsPromotionUrlGenerateResponse.GoodsPromotionUrlGenerateResponseGoodsPromotionUrlListItemWeAppInfo weAppInfo = goodsPromotionUrlList.get(0).getWeAppInfo();
+            if (weAppInfo == null) {
                 throw new BusinessErrorException(ErrorEnum.PRODUCT_NO);
             }
-            JumpBuyDTO jumpBuyDTO=new JumpBuyDTO();
+            JumpBuyDTO jumpBuyDTO = new JumpBuyDTO();
             jumpBuyDTO.setJumType(JumpTypeEnum.JUMP.getType());
             jumpBuyDTO.setAppid(weAppInfo.getAppId());
             jumpBuyDTO.setPath(weAppInfo.getPagePath());
             return jumpBuyDTO;
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new BusinessErrorException(ErrorEnum.ERROR);
         }
     }
@@ -67,19 +67,22 @@ public class PddProductServiceImpl implements ProductService {
         try {
             PopClient client = new PopHttpClient(pddConfig.getClientId(), pddConfig.getClientSecret());
             PddDdkGoodsSearchRequest request = new PddDdkGoodsSearchRequest();
+            if(org.springframework.util.StringUtils.isEmpty(productParamDTO)&& org.springframework.util.StringUtils.isEmpty(productParamDTO.getCategoryThirdId())){
+                productParamDTO.setCategoryThirdId(1L);
+            }
             request.setKeyword(productParamDTO.getKeyword());
             //request.setOptId(0L);
             request.setPage((int) page.getCurrent());
             request.setPageSize((int) page.getSize());
             request.setWithCoupon(true);
             request.setCatId(productParamDTO.getCategoryThirdId());
-            if(StringUtils.isNotEmpty(productParamDTO.getSortFiled())){
-                if(productParamDTO.getSort()==null){
+            if (StringUtils.isNotEmpty(productParamDTO.getSortFiled())) {
+                if (productParamDTO.getSort() == null) {
                     productParamDTO.setSort(SortEnum.DESC.getSort());
                 }
-                if(productParamDTO.getSort()==SortEnum.DESC.getSort()){
+                if (productParamDTO.getSort() == SortEnum.DESC.getSort()) {
                     request.setSortType(4);
-                }else{
+                } else {
                     request.setSortType(3);
                 }
 
@@ -88,33 +91,33 @@ public class PddProductServiceImpl implements ProductService {
             PddDdkGoodsSearchResponse.GoodsSearchResponse goodsSearchResponse = response.getGoodsSearchResponse();
             List<PddDdkGoodsSearchResponse.GoodsSearchResponseGoodsListItem> goodsList = goodsSearchResponse.getGoodsList();
             List<ProductDTO> productDTOList = new ArrayList<>();
-            if(CollectionUtils.isEmpty(goodsList)){
+            if (CollectionUtils.isEmpty(goodsList)) {
                 return productDTOList;
             }
             goodsList.forEach(good -> {
                         ProductDTO productDTO = new ProductDTO();
-                productDTO.setThirdId(good.getGoodsId());
-                ChannelDTO channelDTO=new ChannelDTO();
-                channelDTO.setCode(SourceEnum.jdd.getCode());
-                channelDTO.setMsg(SourceEnum.jdd.getMsg());
-                channelDTO.setId(SourceEnum.jdd.getId());
+                        productDTO.setThirdId(String.valueOf(good.getGoodsId()));
+                        ChannelDTO channelDTO = new ChannelDTO();
+                        channelDTO.setCode(SourceEnum.jdd.getCode());
+                        channelDTO.setMsg(SourceEnum.jdd.getMsg());
+                        channelDTO.setId(SourceEnum.jdd.getId());
                         productDTO.setChannelDTO(channelDTO);
-                productDTO.setDesc(good.getGoodsDesc());
+                        productDTO.setDesc(good.getGoodsDesc());
                         productDTO.setName(good.getGoodsName());
                         productDTO.setImgUrl(good.getGoodsImageUrl());
-                        if(CollectionUtils.isEmpty(good.getGoodsGalleryUrls())){
-                            List<String> smallImages=new ArrayList<>();
+                        if (CollectionUtils.isEmpty(good.getGoodsGalleryUrls())) {
+                            List<String> smallImages = new ArrayList<>();
                             smallImages.add(good.getGoodsImageUrl());
                             productDTO.setSmallImages(smallImages);
-                        }else {
+                        } else {
                             productDTO.setSmallImages(good.getGoodsGalleryUrls());
                         }
-                BigDecimal divisor=new BigDecimal(100);
-                productDTO.setCouponAmount(new BigDecimal(good.getCouponDiscount()).divide(divisor));
+                        BigDecimal divisor = new BigDecimal(100);
+                        productDTO.setCouponAmount(new BigDecimal(good.getCouponDiscount()).divide(divisor));
                         BigDecimal price = new BigDecimal((good.getMinGroupPrice() - good.getCouponDiscount()));
-                productDTO.setOriginalPrice(new BigDecimal(good.getMinGroupPrice()).divide(divisor));
+                        productDTO.setOriginalPrice(new BigDecimal(good.getMinGroupPrice()).divide(divisor));
                         productDTO.setPrice(price.divide(divisor));
-                productDTOList.add(productDTO);
+                        productDTOList.add(productDTO);
                     }
             );
             return productDTOList;

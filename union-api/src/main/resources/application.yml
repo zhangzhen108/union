@@ -1,10 +1,15 @@
 spring:
+  redis:
+    database: 0 # Redis数据库索引（默认为0）
+    host: 39.105.40.119  #Redis服务器地址
+    port: 6379 # Redis服务器连接端口
+    password:
   application:
     name: union
   datasource:
-    url: jdbc:mysql://39.105.40.119:3306/union?characterEncoding=UTF-8&serverTimezone=GMT&useSSL=true
-    username: eliteai
-    password: wp7706388
+    url: jdbc:mysql://localhost:3306/union?characterEncoding=UTF-8&serverTimezone=GMT&useSSL=true
+    username: root
+    password:
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 info:
@@ -15,15 +20,15 @@ info:
 security:
   oauth2:
     resource:
-      user-info-uri: http://localhost:9004/user
+      user-info-uri: https://jpk.akalisd.cn/authentication-center/user
       prefer-token-info: false
       jwt:
-        keyUri: http://localhost:9004/oauth/token_key
+        keyUri: https://jpk.akalisd.cn/authentication-center/oauth/token_key
 server:
   port: 8082
 logging:
   level:
-    root: debug
+    root: info
     com:
       union: debug
 pdd:
@@ -33,6 +38,16 @@ tb:
   server-url: http://gw.api.taobao.com/router/rest
   appkey: 28125995
   secret: 9f6a45fbeca9e587b098c7e08cd88fe1
+jd:
+  server-url: https://router.jd.com/api
+  app-key: 3e1dab81d6a7fff6bf9ea03a010a0cc9
+  app-secret: 853010a758434c15aaa575561cf3fefa
+mgj:
+  app-key: 101984
+  app-secret: 7605401F40215EF8084E5DDAD8CA476C
+  token-url: https://oauth.mogujie.com/token
+  redirect-uri: https://akalisd.cn/api/redirectController/mgj/login
+  server-url: https://openapi.mogujie.com/invoke
 ##  eureka配置
 eureka:
   instance:
