@@ -113,9 +113,10 @@ public class MgjServiceImpl extends ProductService {
             map.add("app_key",mgjConfig.getAppKey());
             map.add("method","xiaodian.cpsdata.promitem.get");
             map.add("format","json");
-            Map<String,String> param=new HashMap<>();
+            Map<String,Object> param=new HashMap<>();
             param.put("keyword",productParamDTO.getKeyword());
             param.put("hasCoupon","true");
+            param.put("cid",productParamDTO.getCategoryThirdId());
             map.add("promInfoQuery",JSON.toJSONString(param));
             map.add("timestamp",String.valueOf(System.currentTimeMillis()));
             map.add("sign", SignUtil.signRequest(map.toSingleValueMap(),mgjConfig.getAppSecret(),"md5"));
