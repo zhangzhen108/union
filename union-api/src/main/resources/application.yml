@@ -7,9 +7,9 @@ spring:
   application:
     name: union
   datasource:
-    url: jdbc:mysql://localhost:3306/union?characterEncoding=UTF-8&serverTimezone=GMT&useSSL=true
-    username: root
-    password:
+    url: jdbc:mysql://39.105.40.119:3306/union?characterEncoding=UTF-8&serverTimezone=GMT&useSSL=true
+    username: eliteai
+    password: wp7706388
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 info:
@@ -52,7 +52,9 @@ mgj:
 eureka:
   instance:
     prefer-ip-address: true #使用IP注册
-    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    #instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    instance-id: 49.232.163.220:${server.port}
+    ip-address: 49.232.163.220
   client:
     serviceUrl:
       defaultZone: http://admin:123456@39.105.40.119:9000/eureka/

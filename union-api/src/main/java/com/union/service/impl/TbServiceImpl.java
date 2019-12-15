@@ -33,6 +33,13 @@ public class TbServiceImpl extends ProductService {
     TbConfig tbConfig;
 
     @Override
+    public List<ProductDTO> index(Page page, ProductParamDTO productParamDTO) {
+        productParamDTO.setSortFiled("total_sales");
+        productParamDTO.setSort(SortEnum.DESC.getSort());
+        return this.queryList(page,productParamDTO);
+    }
+
+    @Override
     public JumpBuyDTO jumpBuy(JumpBuyParamDTO jumpBuyParamDTO) {
         try{
             if(jumpBuyParamDTO==null|| StringUtils.isEmpty(jumpBuyParamDTO.getName())||StringUtils.isEmpty(jumpBuyParamDTO.getUrl())){

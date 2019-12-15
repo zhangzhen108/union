@@ -30,4 +30,8 @@ public class ProductParamDTO implements Serializable {
      * 排序字段
      */
     private String sortFiled;
+    /**
+     * 是否爆款 1--爆款 2--非爆款
+     */
+    private Integer isHot;
 }

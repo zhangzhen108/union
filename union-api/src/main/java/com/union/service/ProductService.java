@@ -17,6 +17,11 @@ public abstract class ProductService {
      * 查询商品列表
      * @return
      */
+    public abstract List<ProductDTO> index(Page page, ProductParamDTO productParamDTO);
+    /**
+     * 查询商品列表
+     * @return
+     */
     public abstract List<ProductDTO> queryList(Page page, ProductParamDTO productParamDTO);
     /**
      * 获取跳转

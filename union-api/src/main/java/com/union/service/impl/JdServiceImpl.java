@@ -44,6 +44,13 @@ public class JdServiceImpl extends ProductService {
     private final Logger log = LoggerFactory.getLogger(this.getClass());
     @Resource
     JdConfig jdConfig;
+
+    @Override
+    public List<ProductDTO> index(Page page, ProductParamDTO productParamDTO) {
+        productParamDTO.setIsHot(1);
+        return this.queryList(page,productParamDTO);
+    }
+
     @Override
     public JumpBuyDTO jumpBuy(JumpBuyParamDTO jumpBuyParamDTO) {
         try{
@@ -79,6 +86,7 @@ public class JdServiceImpl extends ProductService {
                 productParamDTO.setCategoryThirdId(1L);
             }
             goodsReqDTO.setKeyword(productParamDTO.getKeyword());
+            goodsReqDTO.setIsHot(productParamDTO.getIsHot());
             goodsReqDTO.setCid3(productParamDTO.getCategoryThirdId());
             goodsReqDTO.setIsCoupon(1);
             request.setGoodsReqDTO(goodsReqDTO);

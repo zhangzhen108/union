@@ -29,14 +29,14 @@ public class ProductController {
         if(productParamDTO.getChannelCode()==null){
             productParamDTO.setChannelCode(SourceEnum.jdd.getCode());
         }
-        if(StringUtils.isEmpty(productParamDTO.getKeyword())){
-            productParamDTO.setKeyword("衣服");
-        }
+//        if(StringUtils.isEmpty(productParamDTO.getKeyword())){
+//            productParamDTO.setKeyword("衣服");
+//        }
         ProductService productService=ProductInit.PRODUCT_MAP.get(productParamDTO.getChannelCode());
         if(productService==null){
             throw new BusinessErrorException(ErrorEnum.SOURCE_NO_HAVE);
         }
-        List<ProductDTO>  productDTOList=productService.queryList(page,productParamDTO);
+        List<ProductDTO>  productDTOList=productService.index(page,productParamDTO);
         return R.creatR(productDTOList, ErrorEnum.SUCCESS);
     }
     @GetMapping("queryList")

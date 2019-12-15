@@ -33,6 +33,12 @@ public class PddServiceImpl extends ProductService {
     PddConfig pddConfig;
 
     @Override
+    public List<ProductDTO> index(Page page, ProductParamDTO productParamDTO) {
+        productParamDTO.setSortType(6);
+        return this.queryList(page,productParamDTO);
+    }
+
+    @Override
     public JumpBuyDTO jumpBuy(JumpBuyParamDTO jumpBuyParamDTO) {
         try {
             PopClient client = new PopHttpClient(pddConfig.getClientId(), pddConfig.getClientSecret());
@@ -71,7 +77,7 @@ public class PddServiceImpl extends ProductService {
                 productParamDTO.setCategoryThirdId(1L);
             }
             request.setKeyword(productParamDTO.getKeyword());
-            //request.setOptId(0L);
+            request.setOptId(0L);
             request.setPage((int) page.getCurrent());
             request.setPageSize((int) page.getSize());
             request.setWithCoupon(true);
@@ -86,6 +92,8 @@ public class PddServiceImpl extends ProductService {
                     request.setSortType(3);
                 }
 
+            }else{
+                request.setSortType(productParamDTO.getSortType());
             }
             PddDdkGoodsSearchResponse response = client.syncInvoke(request);
             PddDdkGoodsSearchResponse.GoodsSearchResponse goodsSearchResponse = response.getGoodsSearchResponse();

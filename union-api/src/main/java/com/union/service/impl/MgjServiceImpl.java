@@ -53,6 +53,13 @@ public class MgjServiceImpl extends ProductService {
     MgjConfig mgjConfig;
     @Autowired
     private RedisTemplate redisTemplate;
+
+    @Override
+    public List<ProductDTO> index(Page page, ProductParamDTO productParamDTO) {
+        productParamDTO.setSortType(12);
+        return this.queryList(page,productParamDTO);
+    }
+
     @Override
     public void login(String code, String state) {
         try{
