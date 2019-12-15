@@ -87,7 +87,7 @@ public class JdServiceImpl extends ProductService {
             }
             goodsReqDTO.setKeyword(productParamDTO.getKeyword());
             goodsReqDTO.setIsHot(productParamDTO.getIsHot());
-            goodsReqDTO.setCid3(productParamDTO.getCategoryThirdId());
+            goodsReqDTO.setCid1(productParamDTO.getCategoryThirdId());
             goodsReqDTO.setIsCoupon(1);
             request.setGoodsReqDTO(goodsReqDTO);
             UnionOpenGoodsQueryResponse response=client.execute(request);
