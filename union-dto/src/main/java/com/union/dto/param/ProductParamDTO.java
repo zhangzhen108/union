@@ -34,4 +34,6 @@ public class ProductParamDTO implements Serializable {
      * 是否爆款 1--爆款 2--非爆款
      */
     private Integer isHot;
+
+    private Boolean hasCoupon;
 }

@@ -55,4 +55,6 @@ public class ProductDTO implements Serializable {
     private String couponUrl;
 
     private String couponId;
+
+    private String shopName;
 }

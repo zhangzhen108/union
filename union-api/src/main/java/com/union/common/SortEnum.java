@@ -1,14 +1,16 @@
 package com.union.common;
 
 public enum  SortEnum {
-    ASC(1,"正叙排序"),
-    DESC(-1,"倒叙排序"),
+    ASC(1,"asc","正叙排序"),
+    DESC(-1,"desc","倒叙排序"),
     ;
 
-    SortEnum(Integer sort, String msg) {
+    SortEnum(Integer sort,String code, String msg) {
         this.sort = sort;
+        this.code = code;
         this.msg = msg;
     }
+    private String code;
 
     private Integer sort;
 
@@ -16,6 +18,14 @@ public enum  SortEnum {
 
     public Integer getSort() {
         return sort;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
     }
 
     public void setSort(Integer sort) {

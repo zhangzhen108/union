@@ -42,7 +42,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
      *                         "/swagger-ui.html","/course/coursebase/**").permitAll()
      *                 .anyRequest().authenticated();
      */
-    private static String[] WHITE_LIST = new String[]{"/actuator/health","/api/**","/v2/api-docs"};
+    private static String[] WHITE_LIST = new String[]{"/actuator/health","/api/**","/image/**","/v2/api-docs"};
     @Autowired
     private ResourceServerProperties resourceServerProperties;
     @Autowired

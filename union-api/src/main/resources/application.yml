@@ -14,7 +14,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
 info:
   app:
-    img-url: http://39.105.40.119:8082/image/
+    img-url: https://jpk.akalisd.cn/union/image/
     name: product
     desc: product
 security:
@@ -40,8 +40,10 @@ tb:
   secret: 9f6a45fbeca9e587b098c7e08cd88fe1
 jd:
   server-url: https://router.jd.com/api
-  app-key: 3e1dab81d6a7fff6bf9ea03a010a0cc9
-  app-secret: 853010a758434c15aaa575561cf3fefa
+#  app-key: 3e1dab81d6a7fff6bf9ea03a010a0cc9
+#  app-secret: 853010a758434c15aaa575561cf3fefa
+  app-key: 44b2aa9980619d76a5d461e873932401
+  app-secret: e85ea760480b444ca3520f7b238fa8fe
 mgj:
   app-key: 101984
   app-secret: 7605401F40215EF8084E5DDAD8CA476C
@@ -52,9 +54,9 @@ mgj:
 eureka:
   instance:
     prefer-ip-address: true #使用IP注册
-    #instance-id: ${spring.cloud.client.ip-address}:${server.port}
-    instance-id: 49.232.163.220:${server.port}
-    ip-address: 49.232.163.220
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    #instance-id: 49.232.163.220:${server.port}
+    #ip-address: 49.232.163.220
   client:
     serviceUrl:
       defaultZone: http://admin:123456@39.105.40.119:9000/eureka/

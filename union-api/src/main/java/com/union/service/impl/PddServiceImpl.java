@@ -35,6 +35,7 @@ public class PddServiceImpl extends ProductService {
     @Override
     public List<ProductDTO> index(Page page, ProductParamDTO productParamDTO) {
         productParamDTO.setSortType(6);
+        productParamDTO.setHasCoupon(true);
         return this.queryList(page,productParamDTO);
     }
 
@@ -80,7 +81,10 @@ public class PddServiceImpl extends ProductService {
             request.setOptId(0L);
             request.setPage((int) page.getCurrent());
             request.setPageSize((int) page.getSize());
-            request.setWithCoupon(true);
+            if(productParamDTO.getHasCoupon()!=null){
+                request.setWithCoupon(productParamDTO.getHasCoupon());
+            }
+            //request.setWithCoupon(true);
             request.setCatId(productParamDTO.getCategoryThirdId());
             if (StringUtils.isNotEmpty(productParamDTO.getSortFiled())) {
                 if (productParamDTO.getSort() == null) {
@@ -121,10 +125,11 @@ public class PddServiceImpl extends ProductService {
                             productDTO.setSmallImages(good.getGoodsGalleryUrls());
                         }
                         BigDecimal divisor = new BigDecimal(100);
-                        productDTO.setCouponAmount(new BigDecimal(good.getCouponDiscount()).divide(divisor));
+                        productDTO.setCouponAmount(new BigDecimal(good.getCouponDiscount()).divide(divisor).setScale(2, BigDecimal.ROUND_DOWN));
                         BigDecimal price = new BigDecimal((good.getMinGroupPrice() - good.getCouponDiscount()));
-                        productDTO.setOriginalPrice(new BigDecimal(good.getMinGroupPrice()).divide(divisor));
-                        productDTO.setPrice(price.divide(divisor));
+                        productDTO.setOriginalPrice(new BigDecimal(good.getMinGroupPrice()).divide(divisor).setScale(2, BigDecimal.ROUND_DOWN));
+                        productDTO.setPrice(price.divide(divisor).setScale(2, BigDecimal.ROUND_DOWN));
+                productDTO.setShopName(StringUtils.isEmpty(good.getMallName())?"自营":good.getMallName());
                         productDTOList.add(productDTO);
                     }
             );

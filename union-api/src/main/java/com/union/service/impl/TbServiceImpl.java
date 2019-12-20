@@ -36,6 +36,7 @@ public class TbServiceImpl extends ProductService {
     public List<ProductDTO> index(Page page, ProductParamDTO productParamDTO) {
         productParamDTO.setSortFiled("total_sales");
         productParamDTO.setSort(SortEnum.DESC.getSort());
+        productParamDTO.setHasCoupon(true);
         return this.queryList(page,productParamDTO);
     }
 
@@ -71,7 +72,10 @@ public class TbServiceImpl extends ProductService {
             req.setQ(productParamDTO.getKeyword());
             req.setCat(String.valueOf(productParamDTO.getCategoryThirdId()));
 //            req.setMaterialId(17004L);
-            req.setHasCoupon(true);
+            if(productParamDTO.getHasCoupon()!=null){
+                req.setHasCoupon(productParamDTO.getHasCoupon());
+            }
+            //req.setHasCoupon(true);
             req.setAdzoneId(183612470L);
             if(StringUtils.isNotEmpty(productParamDTO.getSortFiled())){
                 if(productParamDTO.getSort()==null){
@@ -122,11 +126,12 @@ public class TbServiceImpl extends ProductService {
                 }
                 productDTO.setSmallImages(mapData.getSmallImages());
                 BigDecimal jddPrice=new BigDecimal(mapData.getZkFinalPrice());
-                BigDecimal couponAmount=new BigDecimal(mapData.getCouponAmount());
-                productDTO.setPrice(jddPrice.subtract(couponAmount));
+                BigDecimal couponAmount=new BigDecimal(mapData.getCouponAmount()).setScale(2, BigDecimal.ROUND_DOWN);
+                productDTO.setPrice(jddPrice.subtract(couponAmount).setScale(2, BigDecimal.ROUND_DOWN));
                 productDTO.setDesc(mapData.getItemDescription());
-                productDTO.setCouponAmount(couponAmount);
-                productDTO.setOriginalPrice(jddPrice);
+                productDTO.setCouponAmount(couponAmount.setScale(2, BigDecimal.ROUND_DOWN));
+                productDTO.setOriginalPrice(jddPrice.setScale(2, BigDecimal.ROUND_DOWN));
+                productDTO.setShopName(StringUtils.isEmpty(mapData.getShopTitle())?"自营":mapData.getShopTitle());
                 productDTOList.add(productDTO);
             }
             return productDTOList;

@@ -5,7 +5,7 @@ package com.union.common;
  */
 public enum SourceEnum {
     jdd(1l,"product-pdd","拼多多"),
-    tb(2l,"product-tb","淘宝"),
+    tb(2l,"product-tb","淘一淘"),
     jd(3l,"product-jd","京东"),
     mgj(4l,"product-mgj","蘑菇街"),
     ;

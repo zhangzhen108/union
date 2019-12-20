@@ -8,10 +8,7 @@ import com.mogujie.openapi.MogujieClient;
 import com.mogujie.openapi.request.MgjRequest;
 import com.mogujie.openapi.util.HttpClient;
 import com.mogujie.openapi.util.SignUtil;
-import com.union.common.BusinessErrorException;
-import com.union.common.ErrorEnum;
-import com.union.common.JumpTypeEnum;
-import com.union.common.SourceEnum;
+import com.union.common.*;
 import com.union.config.MgjConfig;
 import com.union.dto.param.JumpBuyParamDTO;
 import com.union.dto.param.ProductParamDTO;
@@ -57,6 +54,8 @@ public class MgjServiceImpl extends ProductService {
     @Override
     public List<ProductDTO> index(Page page, ProductParamDTO productParamDTO) {
         productParamDTO.setSortType(12);
+        productParamDTO.setIsHot(1);
+        productParamDTO.setHasCoupon(true);
         return this.queryList(page,productParamDTO);
     }
 
@@ -114,9 +113,27 @@ public class MgjServiceImpl extends ProductService {
             map.add("method","xiaodian.cpsdata.promitem.get");
             map.add("format","json");
             Map<String,Object> param=new HashMap<>();
-            param.put("keyword",productParamDTO.getKeyword());
-            param.put("hasCoupon","true");
-            param.put("cid",productParamDTO.getCategoryThirdId());
+            if(StringUtils.isNotEmpty(productParamDTO.getKeyword())){
+                param.put("keyword",productParamDTO.getKeyword());
+            }
+            if("1".equals(productParamDTO.getIsHot())){
+               param.put("tag",1);
+           }
+            if(StringUtils.isEmpty(productParamDTO.getSortFiled())){
+               param.put("sortType",42);
+            }else{
+                if(SortEnum.ASC.getSort().equals(productParamDTO.getSort())){
+                    param.put("sortType","21");
+                }else{
+                    param.put("sortType","22");
+                }
+            }
+            if(productParamDTO.getHasCoupon()!=null){
+                param.put("hasCoupon",productParamDTO.getHasCoupon());
+            }
+            if(productParamDTO.getCategoryThirdId()!=null){
+                param.put("cid",productParamDTO.getCategoryThirdId());
+            }
             map.add("promInfoQuery",JSON.toJSONString(param));
             map.add("timestamp",String.valueOf(System.currentTimeMillis()));
             map.add("sign", SignUtil.signRequest(map.toSingleValueMap(),mgjConfig.getAppSecret(),"md5"));
@@ -152,10 +169,16 @@ public class MgjServiceImpl extends ProductService {
                 smallImageUrlList.add(productDTO.getImgUrl());
                 productDTO.setSmallImages(smallImageUrlList);
                 BigDecimal couponAmount=new BigDecimal(item.getString("couponAmount"));
-                productDTO.setCouponAmount(couponAmount);
-                productDTO.setOriginalPrice(new BigDecimal(item.getString("zkPrice")));
-                productDTO.setPrice(new BigDecimal(item.getString("afterCouponPrice")));
+                productDTO.setCouponAmount(couponAmount.setScale(2, BigDecimal.ROUND_DOWN));
+                productDTO.setOriginalPrice(new BigDecimal(item.getString("zkPrice")).setScale(2, BigDecimal.ROUND_DOWN));
+                productDTO.setPrice(new BigDecimal(item.getString("afterCouponPrice")).setScale(2, BigDecimal.ROUND_DOWN));
                 productDTO.setCouponId(item.getString("promid"));
+                JSONObject shopJsonObject=item.getJSONObject("shopInfo");
+                if(shopJsonObject==null||StringUtils.isEmpty(shopJsonObject.getString("name"))){
+                    productDTO.setShopName("自营");
+                }else{
+                    productDTO.setShopName(shopJsonObject.getString("name"));
+                }
                 productDTOList.add(productDTO);
             }
             return productDTOList;
